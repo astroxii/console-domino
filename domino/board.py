@@ -107,7 +107,7 @@ class Board:
             
     
     def define_corners(self) -> None:
-        # Defines which number are required to play
+        # Defines which numbers are required to play
         if(len(self.played_pieces) == 1):
             self.corners = (self.played_pieces[0][0], self.played_pieces[0][1])
         elif(len(self.played_pieces) >= 2):
